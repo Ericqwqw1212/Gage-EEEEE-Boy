@@ -8,6 +8,6 @@ namespace MonsterLog.Data
 {
     interface IMonsterDAL
     {
-        IEnumerable<Monster> GetCollection();
+        IEnumerable<Monster> AllMonsters();
     }
 }

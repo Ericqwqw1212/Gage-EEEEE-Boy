@@ -17,22 +17,40 @@ namespace MonsterLog.Data
 
         public void Favorite(int index)
         {
-            //favorites
+            favorites.Add(monsters[index]);
         }
 
         public IEnumerable<Monster> FavoriteMonsters()
         {
-            throw new NotImplementedException();
+            return favorites;
         }
 
         public IEnumerable<Monster> FilterMonsters(string habitat)
         {
-            throw new NotImplementedException();
+            var searched = from m in monsters
+                           select m;
+
+            if (!string.IsNullOrEmpty(habitat))
+            {
+                searched = searched.Where(s => s.Habitat.Contains(habitat, StringComparison.OrdinalIgnoreCase));
+            }
+            List<Monster> filtered = new List<Monster>();
+            filtered.AddRange(searched);
+            return filtered;
         }
 
         public IEnumerable<Monster> SearchMonsters(string search)
         {
-            throw new NotImplementedException();
+            var searched = from m in monsters
+                           select m;
+
+            if (!string.IsNullOrEmpty(search))
+            {
+                searched = searched.Where(s => s.Name.Contains(search, StringComparison.OrdinalIgnoreCase));
+            }
+            List<Monster> filtered = new List<Monster>();
+            filtered.AddRange(searched);
+            return filtered;
         }
 
         public void SingleMonster(int index)

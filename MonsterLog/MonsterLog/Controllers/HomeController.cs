@@ -12,5 +12,7 @@ namespace MonsterLog.Controllers
         {
             return View();
         }
+
+        //comented stuff
     }
 }

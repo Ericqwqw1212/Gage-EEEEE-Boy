@@ -12,5 +12,6 @@ namespace MonsterLog.Controllers
         {
             return View();
         }
+        //why
     }
 }

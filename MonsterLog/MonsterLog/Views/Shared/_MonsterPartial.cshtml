@@ -1,1 +1,21 @@
-﻿
+﻿@using MonsterLog.Models
+@model Monster
+<div class="monster">
+    <p><strong>@Model.Name</strong></p>
+    <div class="monsterImg">
+        <img src="~/images/@Model.Image" />
+    </div>
+    <div class="monsterStats">
+        @Model.Name
+        @Model.LifeSpan
+        @Model.Weight
+        @Model.Size
+        @Model.Habitat
+        @Model.Diet
+        @Model.NaturalStrengths
+        @Model.NaturalWeakness
+    </div>
+    <div class="monsterLore">
+        @Model.Lore
+    </div>
+</div>

@@ -12,5 +12,20 @@ namespace MonsterLog.Controllers
         {
             return View();
         }
+
+        public IActionResult Monsters()
+        {
+            return View();
+        }
+
+        public IActionResult Random()
+        {
+            return View();
+        }
+
+        public IActionResult Favorites()
+        {
+            return View();
+        }
     }
 }

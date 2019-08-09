@@ -7,9 +7,24 @@
     <title>@RenderSection("Title", false)</title>
 </head>
 <body>
+    <header class="mainContentHeader font">
+        Monster Dictionary
+
+    </header>
+
+    <nav class="navBar font">
+        <a asp-action="Index" asp-controller="Home">Home</a>&emsp;
+        <a asp-action="Monsters" asp-controller="Home">All Monsters</a>&emsp;
+        <a asp-action="Random" asp-controller="Home">Random Monster</a>&emsp;
+        <a asp-action="Favorites" asp-controller="Home">Favorites</a>&emsp;
+    </nav>
+
     @*Nav Here*@
     @*Login Here*@
 
-    @RenderBody()
+    <div class="mainContent font">
+
+        @RenderBody()
+    </div>
 </body>
 </html>

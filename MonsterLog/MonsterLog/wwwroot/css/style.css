@@ -1,1 +1,45 @@
-﻿
+﻿body {
+    background-color: black;
+    background-image: url("/Images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navBar {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+.navBar a {
+    border: 3px ridge white;
+    padding: 5px;
+    background-color: #6f7a7d;
+    color: white;
+}
+
+.font {
+    font-family: Impact;
+}
+
+.mainContent {
+    border: solid 2px #2C2818;
+    border-radius: 15px;
+    background-color: #3C3C3C;
+    width: 450px;
+    padding: 50px 50px 50px 50px;
+    margin: 10px 10% 0px 35%;
+}
+
+.mainLeftMargin {
+    margin-left: 500px;
+    color: white;
+}
+
+.mainContentHeader {
+    color: ghostwhite;
+    font-size: 3em;
+    margin:auto;
+    width: 400px;
+}

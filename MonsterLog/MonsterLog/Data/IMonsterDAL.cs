@@ -12,7 +12,7 @@ namespace MonsterLog.Data
         IEnumerable<Monster> FavoriteMonsters();
         IEnumerable<Monster> SearchMonsters(string search, string habitat);
         void Favorite(int index);
-        void SingleMonster(int index);
+        Monster SingleMonster(int index);
 
     }
 }

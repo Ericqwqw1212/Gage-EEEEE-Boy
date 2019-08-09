@@ -1,4 +1,4 @@
-﻿body {
+body {
     background-color: black;
     background-image: url("/Images/background.jpg");
     background-repeat: no-repeat;
@@ -42,4 +42,20 @@
     font-size: 3em;
     margin:auto;
     width: 400px;
+}
+
+.monster {
+
+}
+
+.monsterImg {
+
+}
+
+.monsterStats {
+
+}
+
+.monsterLore {
+
 }

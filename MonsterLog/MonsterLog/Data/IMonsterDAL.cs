@@ -10,8 +10,7 @@ namespace MonsterLog.Data
     {
         IEnumerable<Monster> AllMonsters();
         IEnumerable<Monster> FavoriteMonsters();
-        IEnumerable<Monster> SearchMonsters(string search);
-        IEnumerable<Monster> FilterMonsters(string habitat);
+        IEnumerable<Monster> SearchMonsters(string search, string habitat);
         void Favorite(int index);
         void SingleMonster(int index);
 

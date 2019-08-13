@@ -45,7 +45,17 @@ body {
 }
 
 .monster {
+    background-color:#ffffff;
+}
+.monster:hover {
+    background-color:#dddddd;
+}
 
+.monsterInfo {
+    border: solid 2px #2C2818;
+    border-radius: 15px;
+    background-color: #3C3C3C;
+    width: 1200px;
 }
 
 .monsterImg {

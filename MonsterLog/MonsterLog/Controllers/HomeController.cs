@@ -10,18 +10,6 @@ namespace MonsterLog.Controllers
 {
     public class HomeController : Controller
     {
-        Monster monster = new Monster
-        {
-            Name = "Qwqw",
-            LifeSpan = "Imortal",
-            Weight = "150",
-            Size = "6ft",
-            Diet = "Raw Spaggeti",
-            Habitat = "All",
-            NaturalStrengths = "Hive Mind",
-            NaturalWeakness = "Gage EEEEE Boy",
-            Lore = "llllllllllllllllllllllllllllllllllllllllllll"
-        };
         public IActionResult Index()
         {
             return View();
@@ -29,7 +17,7 @@ namespace MonsterLog.Controllers
 
         public IActionResult Monsters()
         {
-            return View(monster);
+            return View();
         }
 
         public IActionResult Random()

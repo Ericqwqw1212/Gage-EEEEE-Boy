@@ -12,7 +12,6 @@ namespace MonsterLog.Models
 
         public string Name { get; set; }
         public string LifeSpan { get; set; }
-        public string Weight { get; set; }
         public string Size { get; set; }
         public string Diet { get; set; }
         public string Habitat { get; set; }

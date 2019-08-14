@@ -16,7 +16,9 @@ namespace MonsterLog.Data
             "Notable Skills: Mimicry, The wendigo can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check." +
             "Masks of the Wild, The wendigo can attempt to hide even when it is only lightly obscured by foliage, heavy rain, falling snow, mist, or other natural phenomena."
             , NaturalWeakness="Fire"} };
+
         private static List<Monster> favorites = new List<Monster>();
+
         public IEnumerable<Monster> AllMonsters()
         {
             return monsters;

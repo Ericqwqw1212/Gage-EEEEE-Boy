@@ -1,7 +1,8 @@
 ﻿@using MonsterLog.Models
 @model Monster
-<div class="monster">
-    <p><strong>@Model.Name</strong></p>
+
+<button data-toggle="collapse" data-target="monsterInfo" class="monster">@Model.Name</button>
+<div class="monsterInfo" id="monsterInfo">
     <div class="monsterImg">
         <img src="~/images/@Model.Image" />
     </div>

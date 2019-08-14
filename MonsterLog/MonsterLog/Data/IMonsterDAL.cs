@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MonsterLog.Data
 {
-    interface IMonsterDAL
+    public interface IMonsterDAL
     {
         IEnumerable<Monster> AllMonsters();
         IEnumerable<Monster> FavoriteMonsters();

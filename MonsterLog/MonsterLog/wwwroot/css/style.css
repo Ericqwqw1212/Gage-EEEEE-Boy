@@ -54,8 +54,8 @@ body {
     border:solid 2px #2C2818;
     border-radius:15px;
     background-color: #3C3C3C;
-    margin-left: 150px;
-    width:1200px;
+    margin-left: 10%;
+    width:80%;
     color:white;
 }
 
@@ -64,15 +64,15 @@ body {
     margin: 50px 25px 25px 50px;
 }
 .monsterImg {
-    max-height:500px;
-    max-width:400px;
+    max-height: 500px;
+    max-width: 400px;
 }
 
 .monsterText {
     display: inline-block;
-    width:500px;
+    width: 45%;
     margin: 50px 50px 50px 25px;
-    vertical-align:top;
+    vertical-align: top;
 }
 
 .monsterLore {

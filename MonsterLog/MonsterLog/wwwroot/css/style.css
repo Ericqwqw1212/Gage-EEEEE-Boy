@@ -46,7 +46,6 @@ body {
 
 .monster {
     background-color: #ffffff;
-    color: ghostwhite;
 }
 .monster:hover {
     background-color:#dddddd;
@@ -57,6 +56,7 @@ body {
     border-radius: 15px;
     background-color: #3C3C3C;
     width: 1200px;
+    color: ghostwhite;
 }
 
 .monsterImg {

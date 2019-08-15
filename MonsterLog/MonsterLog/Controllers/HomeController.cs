@@ -27,9 +27,13 @@ namespace MonsterLog.Controllers
             return View(monsterContext.GetAllMonsters().ToList());
         }
 
-        public IActionResult Random()
+        public IActionResult RandomMonster(int? index=null)
         {
-            return View();
+            List<Monster> mons = monsterContext.AllMonsters().ToList();
+            int mon = index == null ? new Random().Next(mons.Count) : int.Parse(index.ToString());
+    
+            Monster random = monsterContext.SingleMonster(mon);
+            return View(random);
         }
 
         public IActionResult Favorites()

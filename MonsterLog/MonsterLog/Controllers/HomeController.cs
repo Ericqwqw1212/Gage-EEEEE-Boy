@@ -29,7 +29,7 @@ namespace MonsterLog.Controllers
 
         public IActionResult RandomMonster(int? index=null)
         {
-            List<Monster> mons = monsterContext.AllMonsters().ToList();
+            List<Monster> mons = monsterContext.GetAllMonsters().ToList();
             int mon = index == null ? new Random().Next(mons.Count) : int.Parse(index.ToString());
     
             Monster random = monsterContext.SingleMonster(mon);

@@ -3,6 +3,9 @@
 
 <button data-toggle="collapse" data-target="monsterInfo" class="monster">@Model.Name</button>
 <div class="monsterInfo" id="monsterInfo">
+    <div class="monsterLore">
+        @Model.Lore
+    </div>
     <div class="monsterImg">
         <img src="~/images/@Model.Image" />
     </div>
@@ -15,7 +18,5 @@
         @Model.NaturalStrengths
         @Model.NaturalWeakness
     </div>
-    <div class="monsterLore">
-        @Model.Lore
-    </div>
+
 </div>

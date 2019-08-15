@@ -23,15 +23,6 @@ body {
     font-family: Impact;
 }
 
-.mainContent {
-    border: solid 2px #2C2818;
-    border-radius: 15px;
-    background-color: #3C3C3C;
-    width: 450px;
-    padding: 50px 50px 50px 50px;
-    margin: 10px 10% 0px 35%;
-}
-
 .mainLeftMargin {
     margin-left: 500px;
     color: white;
@@ -44,28 +35,49 @@ body {
     width: 400px;
 }
 
-.monster {
-    background-color:#ffffff;
-}
-.monster:hover {
-    background-color:#dddddd;
-}
-
-.monsterInfo {
+.monsterButton {
+    margin: 10px 0px 0px 150px;
     border: solid 2px #2C2818;
     border-radius: 15px;
     background-color: #3C3C3C;
     width: 1200px;
+    height: 50px;
+    font-size:20px;
+    color:white;
+}
+.monster:hover {
+    background-color: #303030;
 }
 
+.monsterInfo {
+    display:none;
+    border:solid 2px #2C2818;
+    border-radius:15px;
+    background-color: #3C3C3C;
+    margin-left: 150px;
+    width:1200px;
+    color:white;
+}
+
+.monsterImgBox {
+    display: inline-block;
+    margin: 50px 25px 25px 50px;
+}
 .monsterImg {
-
+    height:500px;
 }
 
-.monsterStats {
-
+.monsterText {
+    display: inline-block;
+    width:500px;
+    margin: 50px 50px 50px 25px;
+    vertical-align:top;
 }
 
 .monsterLore {
+    margin-bottom:25px;
+}
+
+.monsterStats {
 
 }

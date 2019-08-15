@@ -17,5 +17,19 @@ namespace MonsterLog.Models
         public string Habitat { get; set; }
         public string NaturalStrengths { get; set; }
         public string NaturalWeakness { get; set; }
+
+        public string statsToString()
+        {
+            string forReturn = "";
+            forReturn += Name + "\n";
+            forReturn += LifeSpan + "\n";
+            forReturn += Size + "\n";
+            forReturn += Habitat + "\n";
+            forReturn += Diet + "\n";
+            forReturn += NaturalStrengths + "\n";
+            forReturn += NaturalWeakness + "\n";
+
+            return forReturn;
+        }
     }
 }

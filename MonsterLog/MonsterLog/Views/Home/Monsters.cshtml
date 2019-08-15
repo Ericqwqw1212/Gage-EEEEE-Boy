@@ -1,12 +1,14 @@
 ﻿@using MonsterLog.Models
-@model Monster
+@model List<Monster>
 
 @section Title
-{
+    {
     Monster Page
 }
 
 <article>
-    Collection of all monsters
+    @foreach (Monster monster in Model)
+    {
+        <partial name="_MonsterPartial" model="@monster" />
+    }
 </article>
-

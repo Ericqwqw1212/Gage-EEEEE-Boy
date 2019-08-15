@@ -1,21 +1,34 @@
 ﻿@using MonsterLog.Models
 @model Monster
 
-<button data-toggle="collapse" data-target="monsterInfo" class="monster">@Model.Name</button>
-<div class="monsterInfo" id="monsterInfo">
-    <div class="monsterImg">
-        <img src="~/images/@Model.Image" />
+@{ 
+    string id = Model.Name;
+}
+
+<button onclick="toggleVisibility('@id')" class="monsterButton">@Model.Name</button>
+<div class="monsterInfo" id="@id">
+    <div class="monsterImgBox">
+        <img class="monsterImg" src="~/images/@Model.Image" />
     </div>
-    <div class="monsterStats">
-        @Model.Name
-        @Model.LifeSpan
-        @Model.Size
-        @Model.Habitat
-        @Model.Diet
-        @Model.NaturalStrengths
-        @Model.NaturalWeakness
-    </div>
-    <div class="monsterLore">
-        @Model.Lore
+    <div class="monsterText">
+        <div class="monsterLore">
+            @Model.Lore
+        </div>
+        <div class="monsterStats">
+            Name: @Model.Name
+            <br/>
+            Life Span: @Model.LifeSpan
+            <br/>
+            Size: @Model.Size
+            <br/>
+            Habitat: @Model.Habitat
+            <br/>
+            Diet: @Model.Diet
+            <br/>
+            Strengths: @Model.NaturalStrengths
+            <br/>
+            Weaknesses: @Model.NaturalWeakness
+            <br/>
+        </div>
     </div>
 </div>

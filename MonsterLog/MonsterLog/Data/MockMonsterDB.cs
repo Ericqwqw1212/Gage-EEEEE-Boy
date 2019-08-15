@@ -19,7 +19,7 @@ namespace MonsterLog.Data
 
         private static List<Monster> favorites = new List<Monster>();
 
-        public IEnumerable<Monster> AllMonsters()
+        public IEnumerable<Monster> GetAllMonsters()
         {
             return monsters;
         }

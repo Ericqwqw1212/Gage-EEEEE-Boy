@@ -45,7 +45,8 @@ body {
 }
 
 .monster {
-    background-color:#ffffff;
+    background-color: #ffffff;
+    color: ghostwhite;
 }
 .monster:hover {
     background-color:#dddddd;
@@ -63,9 +64,9 @@ body {
 }
 
 .monsterStats {
-    color:#000;
+    color:ghostwhite;
 }
 
 .monsterLore {
-    color: #000;
+    color:ghostwhite;
 }

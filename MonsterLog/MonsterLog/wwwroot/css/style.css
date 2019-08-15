@@ -57,16 +57,20 @@ body {
     background-color: #3C3C3C;
     width: 1200px;
     color: ghostwhite;
+    display:flex;
+    flex-direction:row;
 }
 
 .monsterImg {
-
+    flex:1;
 }
 
 .monsterStats {
-    color:ghostwhite;
+    flex: 1;
+    color: ghostwhite;
 }
 
 .monsterLore {
-    color:ghostwhite;
+    flex: 1;
+    color: ghostwhite;
 }

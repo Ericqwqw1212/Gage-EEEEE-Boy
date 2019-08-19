@@ -32,7 +32,7 @@ namespace MonsterLog.Data
                                     "Notable Skills: Mimicry, The wendigo can mimic any sounds it has heard, including voices. --- " +
                                     "A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check." +
                                     "Masks of the Wild, The wendigo can attempt to hide even when it is only lightly obscured by foliage, heavy rain, falling snow, mist, or other natural phenomena." +
-                                    "Stats: 15str, 17dex, 14con, 11int, 10wis, 16cha --- " ,
+                                    "Stats: 15 str, 17 dex, 14 con, 11 int, 10 wis, 16 cha --- " ,
 
                 NaturalWeakness="Weak to Fire"
             }, //Windigo
@@ -49,7 +49,7 @@ namespace MonsterLog.Data
 
                 NaturalStrengths="It's size, Able to hold breath for an hour --- " +
                                 "Notable Skills: Siege Monster-The serpent deals double damage to objects and structures. --- " +
-                                "Stats: 26str, 13dex, 22con, 10int, 14wis, 10cha",
+                                "Stats: 26 str, 13 dex, 22 con, 10 int, 14 wis, 10 cha",
 
                 Lore ="Fully grown sea serpents can be longer than ships, and they hunt massive prey. " +
                 "They have been known to attack ships, dragging them beneath the waves with their massive coils, " +
@@ -71,7 +71,7 @@ namespace MonsterLog.Data
 
                 NaturalStrengths = "Resistances: bludgeoning, piercing, slashing. --- " +
                                     "Immunities: charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned --- " +
-                                    "Stats: 26str, 13dex 22con, 10int, 14wis, 10cha",
+                                    "Stats: 26 str, 13 dex, 22 con, 10 int, 14 wis, 10 cha",
 
                 NaturalWeakness = "None",
 
@@ -93,7 +93,7 @@ namespace MonsterLog.Data
 
                 NaturalStrengths = "Resistances: thunder, poison, bludgeoning, piercing, and slashing damage from nonmagical weapons --- " +
                                     "Immunities: lightning, blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned, sleep --- " +
-                                    "Stats: 27str, 19dex 22con, 17int, 18wis, 20cha",
+                                    "Stats: 27 str, 19 dex, 22 con, 17 int, 18 wis, 20 cha",
 
                 NaturalWeakness = "None",
 
@@ -114,7 +114,7 @@ namespace MonsterLog.Data
 
                 NaturalStrengths = "Resistances: bludgeoning, piercing, and slashing from nonmagical attacks --- " +
                                     "Immunities: cold, necrotic, poison, charmed, frightened, poisoned --- " +
-                                    "Stats: 16str, 16dex 18con, 12int, 14wis, 14cha",
+                                    "Stats: 16 str, 16 dex, 18 con, 12 int, 14 wis, 14 cha",
 
                 NaturalWeakness = "None",
 
@@ -137,7 +137,7 @@ namespace MonsterLog.Data
 
                 NaturalStrengths = "Resistances: bludgeoning, piercing and slashing from nonmagical attacks made with silvered attacks --- " +
                                     "Immunities: necrotic, poison, frightened, poisoned, paralyzed, exhaustion, sleep, charmed, petrified --- " +
-                                    "Stats: 24str, 24dex 24con, 22int, 20wis, 29cha ",
+                                    "Stats: 24 str, 24 dex, 24 con, 22 int, 20 wis, 29 cha ",
 
                 NaturalWeakness = "Vulnerabilities: radiant",
 
@@ -156,16 +156,19 @@ namespace MonsterLog.Data
             {
                 Image = "ogreWarlord.jpg",
                 Name = "Ogre Warlord",
-                LifeSpan = "",
-                Size = "",
-                Habitat = "",
-                Diet = "",
+                LifeSpan = "90 Yrs",
+                Size = "Large",
+                Habitat = "Swamp",
+                Diet = "Humans",
 
-                NaturalStrengths = "",
+                NaturalStrengths = "Hard to Frighten --- " +
+                "Stats: 22 str, 9 dex, 14 con, 22 int, 20 wis, 29 cha ",
 
-                NaturalWeakness = "",
+                NaturalWeakness = "None",
 
-                Lore = ""
+                Lore = "An ogre (feminine: 'ogress') is a legendary monster usually depicted as a large, hideous, man-like being that eats ordinary human beings, especially infants and children. " +
+                "Ogres frequently feature in mythology, folklore, and fiction throughout the world. " +
+                "They appear in many classic works of literature, and are most often associated in fairy tales and legend with a taste for infants."
 
             }, //Ogre Warlord
 

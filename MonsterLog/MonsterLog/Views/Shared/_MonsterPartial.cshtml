@@ -1,12 +1,11 @@
 ﻿@using MonsterLog.Models
 @model Monster
 
-@{ 
+@{
     string id = Model.Name;
 }
 
-<button onclick="toggleVisibility('@id')" class="monsterButton">@Model.Name</button>
-<div class="monsterInfo" style="display:none" id="@id">
+<div class="monsterInfo">
     <div class="monsterImgBox">
         <img class="monsterImg" src="~/images/@Model.Image" />
     </div>
@@ -16,19 +15,19 @@
         </div>
         <div class="monsterStats">
             Name: @Model.Name
-            <br/>
+            <br />
             Life Span: @Model.LifeSpan
-            <br/>
+            <br />
             Size: @Model.Size
-            <br/>
+            <br />
             Habitat: @Model.Habitat
-            <br/>
+            <br />
             Diet: @Model.Diet
-            <br/>
+            <br />
             Strengths: @Model.NaturalStrengths
-            <br/>
+            <br />
             Weaknesses: @Model.NaturalWeakness
-            <br/>
+            <br />
         </div>
     </div>
 </div>

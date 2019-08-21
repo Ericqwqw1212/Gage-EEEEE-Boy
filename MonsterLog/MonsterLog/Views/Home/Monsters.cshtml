@@ -18,7 +18,10 @@
     {
         if (f + ((page - 1) * count) < @Model.Count)
         {
-            <partial name="_MonsterPartial" model="@Model[f + ((page - 1) * count)]" />
+            <button onclick="toggleVisibility('@f')" class="monsterButton">@Model[f + ((page - 1) * count)].Name</button>
+            <div style="display:none" id="@f">
+                <partial name="_MonsterPartial" model="@Model[f + ((page - 1) * count)]" />
+            </div>
         }
     }
 </article>

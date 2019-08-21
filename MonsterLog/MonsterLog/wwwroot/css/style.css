@@ -5,6 +5,10 @@ body {
     background-size: 100%;
 }
 
+button:focus {
+    outline:none;
+}
+
 .navBar {
     margin: auto;
     width: 30%;
@@ -33,7 +37,7 @@ body {
 .mainContentHeader {
     color: ghostwhite;
     font-size: 3em;
-    margin:auto;
+    margin: auto;
     width: 400px;
 }
 
@@ -44,28 +48,26 @@ body {
     background-color: #3C3C3C;
     width: 80%;
     height: 50px;
-    font-size:20px;
-    color:white;
-    position:relative;
-}
-.monster:hover {
-    background-color: #303030;
+    font-size: 20px;
+    color: white;
+    position: relative;
 }
 
 .monsterInfo {
-    display:none;
-    border:solid 2px #2C2818;
-    border-radius:15px;
+    display: none;
+    border: solid 2px #2C2818;
+    border-radius: 15px;
     background-color: #3C3C3C;
     margin-left: 10%;
-    width:80%;
-    color:white;
+    width: 80%;
+    color: white;
 }
 
 .monsterImgBox {
     display: inline-block;
     margin: 50px 25px 25px 50px;
 }
+
 .monsterImg {
     max-height: 500px;
     max-width: 400px;
@@ -87,7 +89,6 @@ body {
 }
 
 .monsterStats {
-
 }
 
 .homeContainer {
@@ -95,7 +96,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
-    height:1000px;
+    height: 1000px;
     position: relative;
 }
 
@@ -104,5 +105,5 @@ body {
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.6;
-    position:relative;
+    position: relative;
 }

@@ -22,8 +22,9 @@ namespace MonsterLog.Controllers
             return View();
         }
 
-        public IActionResult Monsters()
+        public IActionResult Monsters(int page)
         {
+            ViewBag.Page = page;
             return View(monsterContext.GetAllMonsters().ToList());
         }
 

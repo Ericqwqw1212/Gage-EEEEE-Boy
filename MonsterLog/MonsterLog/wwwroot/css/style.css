@@ -81,10 +81,10 @@ button:focus {
 
 .monsterLore {
     margin-bottom: 25px;
-    background-color: rgba(0, 185, 255, 0.40);
-    border: 1px solid black;
-    color: black;
-    opacity: 0.6;
+    background-color: #3C4C4F;
+    border: 1px solid #202020;
+    color: white;
+    padding: 3px;
 }
 
 .monsterStats {
@@ -104,5 +104,6 @@ button:focus {
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.6;
+    padding: 3px;
     position: relative;
 }

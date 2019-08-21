@@ -176,16 +176,20 @@ namespace MonsterLog.Data
             {
                 Image = "murloc.jpg",
                 Name = "Murloc",
-                LifeSpan = "",
-                Size = "",
-                Habitat = "",
-                Diet = "",
+                LifeSpan = "Unknown, Possibly Immortal",
+                Size = "Small",
+                Habitat = "Anything Near a Body of Water",
+                Diet = "Unkown",
 
-                NaturalStrengths = "",
+                NaturalStrengths = "Immunities: Poison --- " +
+                "Stats: 8 str, 15 dex, 13 con, 10 int, 11 wis, 9 cha ",
 
-                NaturalWeakness = "",
+                NaturalWeakness = "None",
 
-                Lore = ""
+                Lore = "The murloc is a bipedal, amphibious, semi-intelligent, aggressive race residing along coastlines, lakeshores, and riverbeds. " +
+                "Murlocs possess bulbous bodies, large mouths lined with rows of sharp fangs, and slime-coated skin. " +
+                "Individuals range in coloration from turquoise to darkish grey, while their heights vary from 3-1/2 feet to 6 feet. " +
+                "Depending on the variety, murlocs may lean towards a closer resemblance to frogs or to fish; the iconic green murloc, for example, has coloration similar to the red-eyed tree frog."
 
             }, //Murloc
 

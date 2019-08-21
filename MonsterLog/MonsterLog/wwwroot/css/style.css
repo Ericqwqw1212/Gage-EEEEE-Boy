@@ -2,7 +2,7 @@ body {
     background-color: black;
     background-image: url("/Images/background.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
 
 .navBar {
@@ -36,7 +36,7 @@ body {
 }
 
 .monsterButton {
-    margin: 10px 0px 0px 10%;
+    margin: 10px 0px 0px 17%;
     border: solid 2px #2C2818;
     border-radius: 15px;
     background-color: #3C3C3C;

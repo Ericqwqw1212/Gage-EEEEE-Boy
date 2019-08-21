@@ -36,11 +36,11 @@ body {
 }
 
 .monsterButton {
-    margin: 10px 0px 0px 150px;
+    margin: 10px 0px 0px 10%;
     border: solid 2px #2C2818;
     border-radius: 15px;
     background-color: #3C3C3C;
-    width: 1200px;
+    width: 80%;
     height: 50px;
     font-size:20px;
     color:white;

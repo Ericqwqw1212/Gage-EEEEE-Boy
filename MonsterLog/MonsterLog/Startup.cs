@@ -27,6 +27,15 @@ namespace MonsterLog
             app.UseStatusCodePages();
             app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
+
+            //app.UseMvc(routes =>
+            //{
+            //    routes.MapRoute(
+            //        name: "default",
+            //        template: "{*url}",
+            //        defaults: new { controller = "AllCows", action = "Index" }
+            //        );
+            //});
         }
     }
 }

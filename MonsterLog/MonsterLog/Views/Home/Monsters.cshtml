@@ -6,9 +6,32 @@
     Monster Page
 }
 
+@{
+    int count = 8;
+    int page = ViewBag.Page != null ? ViewBag.Page : 1;
+}
+
+
+
 <article>
-    @foreach (Monster monster in Model)
+    @for (int f = 0; f < count; f++)
     {
-        <partial name="_MonsterPartial" model="@monster" />
+        if (f + ((page - 1) * count) < @Model.Count)
+        {
+            <partial name="_MonsterPartial" model="@Model[f + ((page - 1) * count)]" />
+        }
     }
 </article>
+
+<nav class="navBar font">
+    @if (page > 1)
+    {
+        int backPage = page - 1;
+        <a asp-action="Monsters" asp-route-page="@backPage" asp-controller="Home">Back Page</a>
+    }
+    @if (page <= (@Model.Count / count))
+    {
+        int forwordPage = page + 1;
+        <a asp-action="Monsters" asp-route-page="@forwordPage" asp-controller="Home">Next Page</a>
+    }
+</nav>

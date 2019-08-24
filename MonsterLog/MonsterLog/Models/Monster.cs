@@ -7,6 +7,7 @@ namespace MonsterLog.Models
 {
     public class Monster
     {
+        public int MonsterID { get; set; }
         public string Image { get; set; }
         public string Lore { get; set; }
 

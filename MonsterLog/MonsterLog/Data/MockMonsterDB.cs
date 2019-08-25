@@ -13,26 +13,13 @@ namespace MonsterLog.Data
             {
                 Image ="wendigo.jpg",
                 Name ="Wendigo",
-                Lore ="A horrific creature formed by necessity driven hunger gone mad." +
-                "In the vast expanses of the Boreal Realms, there exists legends of the indigenous people. " +
-                "Legends to explain ideas greater than themselves." +
-                " Legends to pass lessons of life from elder to minor. " +
-                "Stories of heroes, and cryptids battling in a never ceasing battles of good and evil. " +
-                "Of these legends, one of the most fearsome of these cryptids is the Dreaded Wendigo. " +
-                "A spirit of cannibalism that possesses the weak of will. " +
-                "When tribesmen are isolated in their homes, trapped by the deep snows and treacherous cold, " +
-                "and the scarcity of food seeps deeper into the soul, the ravenous nature of the Wendigo begins to take hold.",
+                Lore ="A horrific creature formed by necessity driven hunger gone mad. In the vast expanses of the Boreal Realms, there exists legends of the indigenous people. Legends to explain ideas greater than themselves. Legends to pass lessons of life from elder to minor. Stories of heroes, and cryptids battling in a never ceasing battles of good and evil. Of these legends, one of the most fearsome of these cryptids is the Dreaded Wendigo. A spirit of cannibalism that possesses the weak of will. When tribesmen are isolated in their homes, trapped by the deep snows and treacherous cold, and the scarcity of food seeps deeper into the soul, the ravenous nature of the Wendigo begins to take hold.",
 
                 Habitat ="Habitat:Boreal Realm",
                 LifeSpan ="Lifespan:25 years",
                 Diet ="Canabalistic",
                 Size ="Medium",
-                NaturalStrengths ="Resist: Necrotic --- " +
-                                    "Immune: Cold, Poison, Charm, Exhaustion, Poisoned --- " +
-                                    "Notable Skills: Mimicry, The wendigo can mimic any sounds it has heard, including voices. --- " +
-                                    "A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check." +
-                                    "Masks of the Wild, The wendigo can attempt to hide even when it is only lightly obscured by foliage, heavy rain, falling snow, mist, or other natural phenomena." +
-                                    "Stats: 15 str, 17 dex, 14 con, 11 int, 10 wis, 16 cha --- " ,
+                NaturalStrengths ="Resist: Necrotic --- Immune: Cold, Poison, Charm, Exhaustion, Poisoned --- Notable Skills: Mimicry, The wendigo can mimic any sounds it has heard, including voices. --- A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check. Masks of the Wild, The wendigo can attempt to hide even when it is only lightly obscured by foliage, heavy rain, falling snow, mist, or other natural phenomena. Stats: 15 str, 17 dex, 14 con, 11 int, 10 wis, 16 cha --- " ,
 
                 NaturalWeakness="Weak to Fire"
             }, //Windigo

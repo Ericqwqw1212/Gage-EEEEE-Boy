@@ -260,6 +260,9 @@ namespace MonsterLog.Data
 
         public IEnumerable<Monster> FavoriteMonsters()
         {
+            //cookie
+            //string test = "A B C";
+            //test.Split()
             return favorites;
         }
 

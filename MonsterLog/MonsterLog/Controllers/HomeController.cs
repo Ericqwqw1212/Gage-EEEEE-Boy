@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MonsterLog.Data;
 using MonsterLog.Models;
@@ -36,7 +37,7 @@ namespace MonsterLog.Controllers
             Monster random = monsterContext.SingleMonster(mon);
             return View(random);
         }
-
+        [Authorize]
         public IActionResult Favorites()
         {
             return View();

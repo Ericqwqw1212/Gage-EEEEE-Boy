@@ -8,6 +8,13 @@ namespace MonsterLog.Data
 {
     public class MonsterDBDal : IMonsterDAL
     {
+        private readonly MonsterDBContext _monsterContext;
+
+        public MonsterDBDal(MonsterDBContext monsterContext)
+        {
+            _monsterContext = monsterContext;
+        }
+
         public void Favorite(int index)
         {
             throw new NotImplementedException();
@@ -20,7 +27,12 @@ namespace MonsterLog.Data
 
         public IEnumerable<Monster> GetAllMonsters()
         {
-            throw new NotImplementedException();
+            foreach (Monster mon in _monsterContext.Monsters)
+            {
+                _monsterContext.Update(mon);
+            }
+            _monsterContext.SaveChanges();
+            return _monsterContext.Monsters;
         }
 
         public IEnumerable<Monster> SearchMonsters(string search, string habitat)

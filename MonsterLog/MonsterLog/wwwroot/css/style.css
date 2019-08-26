@@ -6,7 +6,7 @@ body {
 }
 
 button:focus {
-    outline:none;
+    outline: none;
 }
 
 .navBar {
@@ -106,4 +106,12 @@ button:focus {
     opacity: 0.6;
     padding: 3px;
     position: relative;
+}
+
+.statOne {
+    color:#ffffff;
+}
+
+.statTwo {
+    color:#cccccc;
 }

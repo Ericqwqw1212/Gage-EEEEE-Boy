@@ -18,10 +18,12 @@
         <a asp-action="Monsters" asp-route-page="1" asp-controller="Home">All Monsters</a>&emsp;
         <a asp-action="RandomMonster" asp-controller="Home">Random Monster</a>&emsp;
         <a asp-action="Favorites" asp-controller="Home">Favorites</a>&emsp;
+        <partial name="_LoginPartial" />
     </nav>
 
     @*Login Here*@
 
     @RenderBody()
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

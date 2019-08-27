@@ -36,7 +36,7 @@ namespace MonsterLog.Data
         }
         public int AddDefaultList()
         {
-            //When adding a new monster put it in this list, then have everyone set thier SQL list to null.
+            //When adding a new monster put it in this list, then have everyone set thier SQL monster list to null.
             List<Monster> monsters = new List<Monster>() {
                     new Monster
                     {
@@ -266,14 +266,27 @@ namespace MonsterLog.Data
             return _monsterContext.SaveChanges();
         }
 
-        public IEnumerable<Monster> SearchMonsters(string search, string habitat)
+        public IEnumerable<Monster> SearchMonsters(string name, string habitat)
         {
-            throw new NotImplementedException();
+            var searched = from m in GetAllMonsters()
+                           select m;
+
+            if (!string.IsNullOrEmpty(name))
+            {
+                searched = searched.Where(s => s.Name.Contains(name, StringComparison.OrdinalIgnoreCase));
+            }
+            if (!string.IsNullOrEmpty(habitat))
+            {
+                searched = searched.Where(s => s.Habitat.Contains(habitat, StringComparison.OrdinalIgnoreCase));
+            }
+            List<Monster> filtered = new List<Monster>();
+            filtered.AddRange(searched);
+            return filtered;
         }
 
         public Monster SingleMonster(int index)
         {
-            throw new NotImplementedException();
+            return _monsterContext.Monsters.ToList().ElementAt(index);
         }
     }
 }

@@ -11,7 +11,13 @@
     int page = ViewBag.Page != null ? ViewBag.Page : 1;
 }
 
-
+<div class="search">
+    <form method="post">
+        <input type="text" name="name" placeholder="Name" />
+        <input type="text" name="habitat" placeholder="Habitat" />
+        <input type="submit" value="Search Monsters" />
+    </form>
+</div>
 
 <article>
     @for (int f = 0; f < count; f++)

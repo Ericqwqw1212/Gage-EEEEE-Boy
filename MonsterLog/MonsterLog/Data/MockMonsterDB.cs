@@ -6,7 +6,7 @@ using MonsterLog.Models;
 
 namespace MonsterLog.Data
 {
-    public class MockMonsterDB : IMonsterDAL
+    public class MockMonsterDB
     {
         private static List<Monster> monsters = new List<Monster>() {
             new Monster

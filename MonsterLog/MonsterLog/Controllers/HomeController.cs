@@ -26,7 +26,7 @@ namespace MonsterLog.Controllers
         public IActionResult Monsters(int page)
         {
             ViewBag.Page = page;
-            return View(monsterContext.GetAllMonsters().ToList());
+            return View(monsterContext.GetAllMonsters());
         }
 
         public IActionResult RandomMonster(int? index=null)

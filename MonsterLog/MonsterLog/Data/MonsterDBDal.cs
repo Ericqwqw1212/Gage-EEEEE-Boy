@@ -213,16 +213,16 @@ namespace MonsterLog.Data
                     {
                         Image = "paleHorse.jpg",
                         Name = "Pale Horse",
-                        LifeSpan = "",
-                        Size = "",
-                        Habitat = "",
-                        Diet = "",
+                        LifeSpan = "25-30 yrs",
+                        Size = "Large",
+                        Habitat = "Anywhere",
+                        Diet = "Herbivore",
 
-                        NaturalStrengths = "",
+                        NaturalStrengths = "Resistances: Necrotic, Radiant",
 
-                        NaturalWeakness = "",
+                        NaturalWeakness = "None",
 
-                        Lore = ""
+                        Lore = "This is one of a group of necrotic horses. The others are pale yearling, pale stallion, and the pale pegasus."
 
                     }, //Pale Horse
 
@@ -230,16 +230,16 @@ namespace MonsterLog.Data
                     {
                         Image = "pachycephalosaurus.jpg",
                         Name = "Pachycephalosaurus",
-                        LifeSpan = "",
-                        Size = "",
-                        Habitat = "",
-                        Diet = "",
+                        LifeSpan = "Unknown",
+                        Size = "Large",
+                        Habitat = "North America (Montana, South Dakota, Wyoming)",
+                        Diet = "Either herbivore or omnivore",
 
-                        NaturalStrengths = "",
+                        NaturalStrengths = "None",
 
-                        NaturalWeakness = "",
+                        NaturalWeakness = "None",
 
-                        Lore = ""
+                        Lore = "The pachycephalosaurus is a quick-footed herbivore, with a bad temper. While not the largest among dinosaurs, pachycephalosaurus sports a damaging weapon in its own right; a thick, bony dome and short bony spikes projecting upward all atop its head. These dinosaurs are spotted usually in small groups or gangs and are highly territorial, using their thick skulls as battering rams."
 
                     }, //Pachycephalosaurus
 
@@ -247,18 +247,122 @@ namespace MonsterLog.Data
                     {
                         Image = "pathiel.png",
                         Name = "Pathiel",
-                        LifeSpan = "",
-                        Size = "",
-                        Habitat = "",
-                        Diet = "",
+                        LifeSpan = "Immortal",
+                        Size = "Large",
+                        Habitat = "Divine Locations",
+                        Diet = "None",
 
-                        NaturalStrengths = "",
+                        NaturalStrengths = "Resistances: radiant, bludgeoning, piercing, and slashing from non magical weapons",
 
-                        NaturalWeakness = "",
+                        NaturalWeakness = "None except maybe the seduction and allure of humans",
 
-                        Lore = ""
+                        Lore = "A Pathiel is an angel of great power and is said to bring prosperity. These angels are sent by gods as guardians of the weak as wars are waged in their names, so that their followers are protected from the harsh environments of the world. These angels can create wonderful feasts and heal the wounded. These angels only protect those who aren't fighting as the gods created them to protect their followers, not to fight battles. These Angels only appear when these conditions are met"
 
                     },//Pathiel
+
+                    new Monster
+                    {
+                        Image = "affinity.jpg",
+                        Name = "Affinity",
+                        LifeSpan = "Immortal",
+                        Size = "Medium",
+                        Habitat = "Divine Locations",
+                        Diet = "None",
+
+                        NaturalStrengths = "Resistances: radiant; bludgeoning, piercing and slashing damage from nonmagical attacks",
+
+                        NaturalWeakness = "None",
+
+                        Lore = "ervants of heaven that populate the lowest of the angelic hierarchy, a third sphere rung known simply as angels. Those with deep faith often feel these angels closest to their hearts. Descending from the heavens upon their pure white wings, it is believed that the glimmering halo atop an affinity's head lights the path for those who have lost their way."
+
+                    },//Affinity
+
+                    new Monster
+                    {
+                        Image = "ajin.jpg",
+                        Name = "Ajin",
+                        LifeSpan = "Unkown",
+                        Size = "Medium",
+                        Habitat = "Anywhere",
+                        Diet = "Mone",
+
+                        NaturalStrengths = "Resistances: Everything",
+
+                        NaturalWeakness = "Water",
+
+                        Lore = "An Ajin is a creature that cannot be seen or heard by all creatures and humanoids except those that own one. Some owners are able to control their Ajin completely whereas some Ajin simply do whatever it wants. While other Owners are able to command their Ajin properly and can share their Ajin's field of vision and command it to attack targets.Some Ajin are reckless, and often attacks anyone in its immediate vicinity."
+
+                    },//Ajin
+
+                    new Monster
+                    {
+                        Image = "allegiance.jpg",
+                        Name = "Allegiance",
+                        LifeSpan = "Immortal",
+                        Size = "Large",
+                        Habitat = "Divine Locations",
+                        Diet = "None",
+
+                        NaturalStrengths = "Resistances: radiant; bludgeoning, piercing and slashing damage from nonmagical attacks",
+
+                        NaturalWeakness = "None",
+
+                        Lore = "Allegiance belongs to the principalities, ranked seventh in the angelic hierarchy and part of the third sphere. While third sphere angels are the most common type encountered in the physical realm, allegiance, clad in solid gold armor, appears only during times of strife between the celestial plane and the human world, in order to purge the armies of evil spirits."
+
+                    },//Allegiance
+
+                    new Monster
+                    {
+                        Image = "aknamkanon.jpg",
+                        Name = "Aknamkanon",
+                        LifeSpan = "Unknown",
+                        Size = "Medium",
+                        Habitat = "Unkown",
+                        Diet = "Unkown",
+
+                        NaturalStrengths = "None",
+
+                        NaturalWeakness = "None",
+
+                        Lore = "Aknomkanon the name when said is feared most dwell in their homes for the sight of of him will bring a shiver down your spine. His execution schedule is like none ever seen he will kill anything he wants to just because he's bored."
+
+                    },//Aknamkanon
+
+                    new Monster
+                    {
+                        Image = "cthulhu.jpg",
+                        Name = "Cthulhu",
+                        LifeSpan = "Immortal",
+                        Size = "Gargantuan",
+                        Habitat = "Ocean",
+                        Diet = "Sacrifices",
+
+                        NaturalStrengths = "Immunities: necrotic, poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks",
+
+                        NaturalWeakness = "None",
+
+                        Lore = "Great Cthulhu is one of the Great Old Ones, a god-like being asleep somewhere under the ocean. Currently trapped, Cthulhu will eventually awaken, an event subconsciously feared by all sentient races."
+
+                    },//Cthulhu
+
+                    new Monster
+                    {
+                        Image = "enchant.jpg",
+                        Name = "Enchant",
+                        LifeSpan = "Immortal",
+                        Size = "Medium",
+                        Habitat = "Divine Locations",
+                        Diet = "None",
+
+                        NaturalStrengths = "Resistances: radiant; bludgeoning, piercing and slashing damage from nonmagical attacks",
+
+                        NaturalWeakness = "None",
+
+                        Lore = "An Angel shaped like a cart wheel. Enchants are designed to compel humanity to continue its struggle and feel no satisfaction at surpassing others. Enchants protect the fields of the gods from human encroachment and are further responsible for passing communication to the Celestial Plane and correcting the trespasses of humanity."
+
+                    },//Enchant
+
+
                 };
 
             _monsterContext.AddRange(monsters);

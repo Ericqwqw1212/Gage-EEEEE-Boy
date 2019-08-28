@@ -114,3 +114,13 @@ button:focus {
 .statTwo {
     color:#cccccc;
 }
+
+.search {
+    border: solid 2px #2C2818;
+    border-radius: 15px;
+    background-color: #3C3C3C;
+    margin-left: 10%;
+    width: 79%;
+    color: white;
+    padding:7px;
+}

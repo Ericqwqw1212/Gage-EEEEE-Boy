@@ -23,10 +23,17 @@ namespace MonsterLog.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult Monsters(int page)
         {
             ViewBag.Page = page;
             return View(monsterContext.GetAllMonsters());
+        }
+        [HttpPost]
+        public IActionResult Monsters(int page, string name, string habitat)
+        {
+            ViewBag.Page = page;
+            return View(monsterContext.SearchMonsters(name, habitat));
         }
 
         public IActionResult RandomMonster(int? index=null)
